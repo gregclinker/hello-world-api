@@ -1,10 +1,20 @@
 # Hello World API
 
-## Build a runnable jar
+## Build
 
-`mvn clean install`
+### Runnable jar
 
-## To start a chaine of 2 APIs
+```console
+mvn clean install
+```
+
+### Docker image
+
+```console
+mvn spring-boot:build-image
+```
+
+## To start a chain of 2 APIs
 
 ### Start API 1
 
